@@ -27,63 +27,37 @@ int main() {
     //Super Trunfo
 
     char estado1 ='A';
-
     char codigo1[20] = "01";
-
-    char cidade1[20] = "Recife";
-
-    int populaçao1 = 1488920;
-
-    float area1 = 218435;
-
-    float pib1 = 54970305431;
-
+    char cidade1[20] = "Salvador";
+    int populaçao1 = 141400;
+    float area1 = 567.295;
+    float pib1 = 482.8000;
     int pontos1 = 78;
 
     printf("Carta 1\n");
-
     printf("Estado: %c\n", estado1);
-
     printf("Código: %s\n", codigo1);
-
     printf("Nome da Cidade: %s\n", cidade1);
-
     printf("População: %d\n", populaçao1);
-
     printf("Área: %f\n", area1);
-
     printf("PIB: %f\n", pib1);
-
     printf("Pontos turísticos: %d\n\n", pontos1);
 
     char estado2 ='B';
-
     char codigo2[20] = "02";
-
-    char cidade2[20] = "Fortaleza";
-
-    int populaçao2 = 2428678;
-
-    float area2 = 312353;
-
-    float pib2 = 73436128432;
-
+    char cidade2[20] = "Pernambuco";
+    int populaçao2 = 90590000;
+    float area2 = 98.312;
+    float pib2 = 254.900000;
     int pontos2 = 70;
 
     printf("Carta 2\n");
-
     printf("Estado: %c\n", estado2);
-
     printf("Código: %s\n", codigo2);
-
     printf("Nome da Cidade: %s\n", cidade2);
-
     printf("População: %d\n", populaçao2);
-
     printf("Área: %f\n", area2);
-
     printf("PIB: %f\n", pib2);
-
     printf("Pontos turísticos: %d", pontos2);
 
   }
